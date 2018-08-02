@@ -137,7 +137,7 @@ public class Vehicle {
 			return true;
 		}
 		else{
-			System.out.println("this car is does not belong to someone yet");
+			System.out.println("this car does not belong to someone yet");
 			return false;
 		}
 	}
@@ -157,6 +157,7 @@ public class Vehicle {
 		System.out.println(cars[0].getOwner());
 		System.out.println(cars[1].getOwner()+"'s cars is "+cars[1].carAge()+" years old");
 		System.out.println(cars[4].getOwner()+" has a "+cars[4].getMake()+" "+cars[4].getModel());
+		System.out.println(cars[2].doesHaveOwner());
 
 	}
 
